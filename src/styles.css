@@ -2,28 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 body{
-    background: #2E9CE6;
-    padding: 3em;
-    font-family: 'Raleway', 'Arial';
-    color: #fff;
+  background: lightblue;
 }
 
-ul{
-    list-style-type:none;
-    margin:0 0 2em 0;
-    padding:0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-ul li{
-    display:inline;
-    margin-right:30px;
+li {
+  float: left;
 }
 
-ul li a{
-    font-size: 1.5em;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-a{
-    color:#fff;
-    text-decoration:none;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }

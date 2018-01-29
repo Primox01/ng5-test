@@ -9,14 +9,18 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
-import { LoginGuard } from './login.guard'; 
+import { LoginGuard } from './login.guard';
+import { IndexComponent } from './index/index.component';
+import { RegisterComponent } from './register/register.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    IndexComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
