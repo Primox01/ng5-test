@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
 
     if(form.value.usuario === "camilo" && form.value.password === "1234"){
       this._dataService.setLoggedIn(true);   
-      this.router.navigate(['/home']);
+      this.router.navigate(['/dashboard']);
     }else{
       this._dataService.setLoggedIn(false);
     }

@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { IndexComponent } from './index/index.component';
 import { RegisterComponent } from './register/register.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { LoginGuard } from './login.guard';
 
@@ -24,11 +25,14 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent,
-    canActivate: [LoginGuard]
   },
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
     canActivate: [LoginGuard]
   }
 ];
